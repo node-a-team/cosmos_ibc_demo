@@ -10,15 +10,15 @@
 ```bash
 $ gaiad --home=alice/a0/gaiad start
 ```
-- alice chain
+- router chain
 ```bash
 $ gaiad --home=router/r0/gaiad start
 ```
-- alice chain
+- bob chain
 ```bash
 $ gaiad --home=bob/b0/gaiad start
 ```
-- alice chain
+- carol chain
 ```bash
 $ gaiad --home=carol/c0/gaiad start
 ```
