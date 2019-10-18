@@ -1,0 +1,3 @@
+chain-id = "bob"
+node = "tcp://localhost:36657"
+output = "json"

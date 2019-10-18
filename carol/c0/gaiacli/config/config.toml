@@ -1,0 +1,3 @@
+chain-id = "carol"
+node = "tcp://localhost:46657"
+output = "json"

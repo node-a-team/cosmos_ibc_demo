@@ -1,0 +1,105 @@
+=============== Oct 17, 2019 (KST) ===============
+18:37:22.335675 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:37:22.355005 db@open opening
+18:37:22.358102 version@stat F·[] S·0B[] Sc·[]
+18:37:22.385899 db@janitor F·2 G·0
+18:37:22.385966 db@open done T·30.931589ms
+=============== Oct 17, 2019 (KST) ===============
+19:09:45.095378 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:09:45.095549 version@stat F·[] S·0B[] Sc·[]
+19:09:45.095588 db@open opening
+19:09:45.095643 journal@recovery F·1
+19:09:45.097957 journal@recovery recovering @1
+19:09:45.104157 memdb@flush created L0@2 N·9 S·1KiB "car../sh,v3":"car../vs,v8"
+19:09:45.105260 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:09:45.139251 db@janitor F·3 G·0
+19:09:45.139300 db@open done T·43.699357ms
+=============== Oct 18, 2019 (KST) ===============
+00:59:43.908290 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:59:43.914655 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+00:59:43.914697 db@open opening
+00:59:43.914770 journal@recovery F·1
+00:59:43.915550 journal@recovery recovering @3
+00:59:43.925903 memdb@flush created L0@5 N·6 S·1KiB "car../sh,v13":"car../vs,v15"
+00:59:43.930112 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+00:59:43.958287 db@janitor F·4 G·0
+00:59:43.958360 db@open done T·43.650096ms
+=============== Oct 18, 2019 (KST) ===============
+01:03:28.398973 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:03:28.399149 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+01:03:28.399177 db@open opening
+01:03:28.399244 journal@recovery F·1
+01:03:28.401854 journal@recovery recovering @6
+01:03:28.413756 memdb@flush created L0@8 N·6 S·1KiB "car../sh,v20":"car../vs,v22"
+01:03:28.414204 version@stat F·[3] S·3KiB[3KiB] Sc·[0.75]
+01:03:28.463571 db@janitor F·5 G·0
+01:03:28.463599 db@open done T·64.410272ms
+=============== Oct 18, 2019 (KST) ===============
+11:35:27.760005 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:35:27.765107 version@stat F·[3] S·3KiB[3KiB] Sc·[0.75]
+11:35:27.765149 db@open opening
+11:35:27.765227 journal@recovery F·1
+11:35:27.767688 journal@recovery recovering @9
+11:35:27.776871 memdb@flush created L0@11 N·6 S·1KiB "car../sh,v27":"car../vs,v29"
+11:35:27.777899 version@stat F·[4] S·4KiB[4KiB] Sc·[1.00]
+11:35:27.802159 db@janitor F·6 G·0
+11:35:27.802198 db@open done T·37.037173ms
+11:35:27.802309 table@move L0@11 -> L1
+11:35:27.802395 version@stat F·[3 1] S·4KiB[3KiB 1KiB] Sc·[0.75 0.00]
+=============== Oct 18, 2019 (KST) ===============
+11:38:28.479776 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:38:28.479961 version@stat F·[3 1] S·4KiB[3KiB 1KiB] Sc·[0.75 0.00]
+11:38:28.479997 db@open opening
+11:38:28.480070 journal@recovery F·1
+11:38:28.482759 journal@recovery recovering @12
+11:38:28.490262 memdb@flush created L0@14 N·6 S·1KiB "car../sh,v34":"car../vs,v36"
+11:38:28.491424 version@stat F·[4 1] S·5KiB[4KiB 1KiB] Sc·[1.00 0.00]
+11:38:28.550835 db@janitor F·7 G·0
+11:38:28.550898 db@open done T·70.885863ms
+11:38:28.551049 table@move L0@14 -> L1
+11:38:28.551162 version@stat F·[3 2] S·5KiB[3KiB 2KiB] Sc·[0.75 0.00]
+=============== Oct 18, 2019 (KST) ===============
+11:45:46.424554 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:45:46.424796 version@stat F·[3 2] S·5KiB[3KiB 2KiB] Sc·[0.75 0.00]
+11:45:46.425097 db@open opening
+11:45:46.425213 journal@recovery F·1
+11:45:46.429246 journal@recovery recovering @15
+11:45:46.429890 version@stat F·[3 2] S·5KiB[3KiB 2KiB] Sc·[0.75 0.00]
+11:45:46.480521 db@janitor F·7 G·0
+11:45:46.480591 db@open done T·55.474126ms
+=============== Oct 18, 2019 (KST) ===============
+11:49:01.098256 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:49:01.098438 version@stat F·[3 2] S·5KiB[3KiB 2KiB] Sc·[0.75 0.00]
+11:49:01.098477 db@open opening
+11:49:01.098552 journal@recovery F·1
+11:49:01.101137 journal@recovery recovering @17
+11:49:01.106793 memdb@flush created L0@19 N·6 S·1KiB "car../sh,v41":"car../vs,v43"
+11:49:01.113214 version@stat F·[4 2] S·6KiB[4KiB 2KiB] Sc·[1.00 0.00]
+11:49:01.216098 db@janitor F·8 G·0
+11:49:01.216147 db@open done T·117.65799ms
+11:49:01.216258 table@move L0@5 -> L1
+11:49:01.216353 version@stat F·[3 3] S·6KiB[3KiB 3KiB] Sc·[0.75 0.00]
+=============== Oct 18, 2019 (KST) ===============
+15:01:38.355671 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:01:38.355982 version@stat F·[3 3] S·6KiB[3KiB 3KiB] Sc·[0.75 0.00]
+15:01:38.356036 db@open opening
+15:01:38.356179 journal@recovery F·1
+15:01:38.359311 journal@recovery recovering @20
+15:01:38.364921 memdb@flush created L0@22 N·6 S·1KiB "car../sh,v48":"car../vs,v50"
+15:01:38.365650 version@stat F·[4 3] S·7KiB[4KiB 3KiB] Sc·[1.00 0.00]
+15:01:38.421311 db@janitor F·9 G·0
+15:01:38.421357 db@open done T·65.302275ms
+15:01:38.421434 table@move L0@22 -> L1
+15:01:38.421686 version@stat F·[3 4] S·7KiB[3KiB 4KiB] Sc·[0.75 0.00]
+=============== Oct 18, 2019 (KST) ===============
+15:41:40.714633 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:41:40.726793 version@stat F·[3 4] S·7KiB[3KiB 4KiB] Sc·[0.75 0.00]
+15:41:40.726860 db@open opening
+15:41:40.726961 journal@recovery F·1
+15:41:40.727708 journal@recovery recovering @23
+15:41:40.738893 memdb@flush created L0@25 N·6 S·1KiB "car../sh,v55":"car../vs,v57"
+15:41:40.740070 version@stat F·[4 4] S·8KiB[4KiB 4KiB] Sc·[1.00 0.00]
+15:41:40.756848 db@janitor F·10 G·0
+15:41:40.756913 db@open done T·30.038316ms
+15:41:40.757014 table@move L0@25 -> L1
+15:41:40.757128 version@stat F·[3 5] S·8KiB[3KiB 5KiB] Sc·[0.75 0.00]

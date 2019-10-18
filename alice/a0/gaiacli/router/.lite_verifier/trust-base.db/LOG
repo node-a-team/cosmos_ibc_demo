@@ -1,0 +1,286 @@
+=============== Oct 17, 2019 (KST) ===============
+18:34:52.300435 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:34:52.326427 db@open opening
+18:34:52.327504 version@stat F·[] S·0B[] Sc·[]
+18:34:52.340299 db@janitor F·2 G·0
+18:34:52.340331 db@open done T·13.879386ms
+=============== Oct 17, 2019 (KST) ===============
+18:35:07.251013 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:35:07.251146 version@stat F·[] S·0B[] Sc·[]
+18:35:07.251176 db@open opening
+18:35:07.251230 journal@recovery F·1
+18:35:07.253163 journal@recovery recovering @1
+18:35:07.264910 memdb@flush created L0@2 N·3 S·534B "rou../sh,v3":"rou../vs,v2"
+18:35:07.265143 version@stat F·[1] S·534B[534B] Sc·[0.25]
+18:35:07.322406 db@janitor F·3 G·0
+18:35:07.322437 db@open done T·71.251737ms
+=============== Oct 17, 2019 (KST) ===============
+18:35:10.729679 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:35:10.729848 version@stat F·[1] S·534B[534B] Sc·[0.25]
+18:35:10.729868 db@open opening
+18:35:10.729923 journal@recovery F·1
+18:35:10.736338 journal@recovery recovering @3
+18:35:10.740826 version@stat F·[1] S·534B[534B] Sc·[0.25]
+18:35:10.814374 db@janitor F·3 G·0
+18:35:10.814409 db@open done T·84.530798ms
+=============== Oct 17, 2019 (KST) ===============
+18:35:50.022205 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:35:50.022429 version@stat F·[1] S·534B[534B] Sc·[0.25]
+18:35:50.022472 db@open opening
+18:35:50.022549 journal@recovery F·1
+18:35:50.024949 journal@recovery recovering @5
+18:35:50.037720 memdb@flush created L0@7 N·6 S·1KiB "rou../sh,v7":"rou../vs,v9"
+18:35:50.039072 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+18:35:50.064135 db@janitor F·4 G·0
+18:35:50.064175 db@open done T·41.687586ms
+=============== Oct 17, 2019 (KST) ===============
+19:07:22.688268 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:07:22.688604 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+19:07:22.688629 db@open opening
+19:07:22.688683 journal@recovery F·1
+19:07:22.690546 journal@recovery recovering @8
+19:07:22.699945 memdb@flush created L0@10 N·6 S·1KiB "rou../sh,v14":"rou../vs,v16"
+19:07:22.700301 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+19:07:22.744030 db@janitor F·5 G·0
+19:07:22.744073 db@open done T·55.434309ms
+=============== Oct 17, 2019 (KST) ===============
+19:08:15.942995 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:08:15.943185 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+19:08:15.943234 db@open opening
+19:08:15.943316 journal@recovery F·1
+19:08:15.944309 journal@recovery recovering @11
+19:08:15.965024 memdb@flush created L0@13 N·6 S·1KiB "rou../sh,v21":"rou../vs,v23"
+19:08:15.965626 version@stat F·[4] S·3KiB[3KiB] Sc·[1.00]
+19:08:16.026806 db@janitor F·6 G·0
+19:08:16.026849 db@open done T·83.599493ms
+19:08:16.027180 table@move L0@13 -> L1
+19:08:16.027360 version@stat F·[3 1] S·3KiB[2KiB 1KiB] Sc·[0.75 0.00]
+=============== Oct 18, 2019 (KST) ===============
+00:57:25.952313 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:57:25.973487 version@stat F·[3 1] S·3KiB[2KiB 1KiB] Sc·[0.75 0.00]
+00:57:25.973550 db@open opening
+00:57:25.973659 journal@recovery F·1
+00:57:25.976526 journal@recovery recovering @14
+00:57:25.984717 memdb@flush created L0@16 N·6 S·1KiB "rou../sh,v28":"rou../vs,v30"
+00:57:25.985412 version@stat F·[4 1] S·4KiB[3KiB 1KiB] Sc·[1.00 0.00]
+00:57:26.004093 db@janitor F·7 G·0
+00:57:26.004139 db@open done T·30.572883ms
+00:57:26.004180 table@move L0@16 -> L1
+00:57:26.004281 version@stat F·[3 2] S·4KiB[2KiB 2KiB] Sc·[0.75 0.00]
+=============== Oct 18, 2019 (KST) ===============
+00:57:29.927698 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:57:29.927978 version@stat F·[3 2] S·4KiB[2KiB 2KiB] Sc·[0.75 0.00]
+00:57:29.928006 db@open opening
+00:57:29.928109 journal@recovery F·1
+00:57:29.929359 journal@recovery recovering @17
+00:57:29.930187 version@stat F·[3 2] S·4KiB[2KiB 2KiB] Sc·[0.75 0.00]
+00:57:29.944137 db@janitor F·7 G·0
+00:57:29.944173 db@open done T·16.154991ms
+=============== Oct 18, 2019 (KST) ===============
+00:58:10.487011 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:58:10.487227 version@stat F·[3 2] S·4KiB[2KiB 2KiB] Sc·[0.75 0.00]
+00:58:10.487268 db@open opening
+00:58:10.487367 journal@recovery F·1
+00:58:10.490112 journal@recovery recovering @19
+00:58:10.503033 memdb@flush created L0@21 N·6 S·1KiB "rou../sh,v35":"rou../vs,v37"
+00:58:10.503595 version@stat F·[4 2] S·5KiB[3KiB 2KiB] Sc·[1.00 0.00]
+00:58:10.522666 db@janitor F·8 G·0
+00:58:10.522702 db@open done T·35.418471ms
+00:58:10.522757 table@move L0@21 -> L1
+00:58:10.522872 version@stat F·[3 3] S·5KiB[2KiB 3KiB] Sc·[0.75 0.00]
+=============== Oct 18, 2019 (KST) ===============
+01:00:46.935542 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:00:46.935696 version@stat F·[3 3] S·5KiB[2KiB 3KiB] Sc·[0.75 0.00]
+01:00:46.935725 db@open opening
+01:00:46.935874 journal@recovery F·1
+01:00:46.936653 journal@recovery recovering @22
+01:00:46.940995 memdb@flush created L0@24 N·6 S·1KiB "rou../sh,v42":"rou../vs,v44"
+01:00:46.943055 version@stat F·[4 3] S·6KiB[3KiB 3KiB] Sc·[1.00 0.00]
+01:00:46.983337 db@janitor F·9 G·0
+01:00:46.983365 db@open done T·47.628069ms
+01:00:46.983478 table@compaction L0·2 -> L1·0 S·2KiB Q·46
+01:00:46.988050 table@build created L1@27 N·12 S·1KiB "rou../sh,v7":"rou../vs,v44"
+01:00:46.988132 version@stat F·[2 4] S·6KiB[1KiB 4KiB] Sc·[0.50 0.00]
+01:00:47.000312 table@compaction committed F-1 S-361B Ke·0 D·0 T·16.798519ms
+01:00:47.000642 table@remove removed @7
+=============== Oct 18, 2019 (KST) ===============
+01:01:32.300489 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:01:32.300935 version@stat F·[2 4] S·6KiB[1KiB 4KiB] Sc·[0.50 0.00]
+01:01:32.301009 db@open opening
+01:01:32.301151 journal@recovery F·1
+01:01:32.304617 journal@recovery recovering @25
+01:01:32.314950 memdb@flush created L0@28 N·6 S·1KiB "rou../sh,v49":"rou../vs,v51"
+01:01:32.315231 version@stat F·[3 4] S·7KiB[2KiB 4KiB] Sc·[0.75 0.00]
+01:01:32.356583 db@janitor F·10 G·1
+01:01:32.356598 db@janitor removing table-24
+01:01:32.356667 db@open done T·55.640902ms
+=============== Oct 18, 2019 (KST) ===============
+01:05:04.097010 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:05:04.097219 version@stat F·[3 4] S·7KiB[2KiB 4KiB] Sc·[0.75 0.00]
+01:05:04.097270 db@open opening
+01:05:04.097395 journal@recovery F·1
+01:05:04.099791 journal@recovery recovering @29
+01:05:04.108921 memdb@flush created L0@31 N·6 S·1KiB "rou../sh,v56":"rou../vs,v58"
+01:05:04.109524 version@stat F·[4 4] S·8KiB[3KiB 4KiB] Sc·[1.00 0.00]
+01:05:04.132551 db@janitor F·10 G·0
+01:05:04.132611 db@open done T·35.325723ms
+01:05:04.132687 table@move L0@31 -> L1
+01:05:04.132797 version@stat F·[3 5] S·8KiB[2KiB 6KiB] Sc·[0.75 0.00]
+=============== Oct 18, 2019 (KST) ===============
+11:33:24.185349 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:33:24.202999 version@stat F·[3 5] S·8KiB[2KiB 6KiB] Sc·[0.75 0.00]
+11:33:24.203054 db@open opening
+11:33:24.203166 journal@recovery F·1
+11:33:24.204918 journal@recovery recovering @32
+11:33:24.205200 version@stat F·[3 5] S·8KiB[2KiB 6KiB] Sc·[0.75 0.00]
+11:33:24.231016 db@janitor F·10 G·0
+11:33:24.231056 db@open done T·27.989534ms
+=============== Oct 18, 2019 (KST) ===============
+11:34:05.383977 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:34:05.384128 version@stat F·[3 5] S·8KiB[2KiB 6KiB] Sc·[0.75 0.00]
+11:34:05.384154 db@open opening
+11:34:05.384235 journal@recovery F·1
+11:34:05.386113 journal@recovery recovering @34
+11:34:05.399098 memdb@flush created L0@36 N·6 S·1KiB "rou../sh,v63":"rou../vs,v65"
+11:34:05.399647 version@stat F·[4 5] S·9KiB[3KiB 6KiB] Sc·[1.00 0.00]
+11:34:05.440843 db@janitor F·11 G·0
+11:34:05.440901 db@open done T·56.733373ms
+11:34:05.440965 table@move L0@36 -> L1
+11:34:05.441093 version@stat F·[3 6] S·9KiB[2KiB 7KiB] Sc·[0.75 0.00]
+=============== Oct 18, 2019 (KST) ===============
+11:36:28.731043 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:36:28.731718 version@stat F·[3 6] S·9KiB[2KiB 7KiB] Sc·[0.75 0.00]
+11:36:28.731777 db@open opening
+11:36:28.731937 journal@recovery F·1
+11:36:28.740923 journal@recovery recovering @37
+11:36:28.765315 memdb@flush created L0@39 N·6 S·1KiB "rou../sh,v70":"rou../vs,v72"
+11:36:28.766420 version@stat F·[4 6] S·10KiB[3KiB 7KiB] Sc·[1.00 0.00]
+11:36:28.786356 db@janitor F·12 G·0
+11:36:28.786393 db@open done T·54.598525ms
+11:36:28.786503 table@move L0@39 -> L1
+11:36:28.786620 version@stat F·[3 7] S·10KiB[2KiB 8KiB] Sc·[0.75 0.00]
+=============== Oct 18, 2019 (KST) ===============
+11:37:09.347354 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:37:09.347673 version@stat F·[3 7] S·10KiB[2KiB 8KiB] Sc·[0.75 0.00]
+11:37:09.347710 db@open opening
+11:37:09.347810 journal@recovery F·1
+11:37:09.348768 journal@recovery recovering @40
+11:37:09.355976 memdb@flush created L0@42 N·6 S·1KiB "rou../sh,v77":"rou../vs,v79"
+11:37:09.358891 version@stat F·[4 7] S·11KiB[3KiB 8KiB] Sc·[1.00 0.00]
+11:37:09.387221 db@janitor F·13 G·0
+11:37:09.387276 db@open done T·39.552285ms
+11:37:09.387332 table@move L0@42 -> L1
+11:37:09.387478 version@stat F·[3 8] S·11KiB[2KiB 9KiB] Sc·[0.75 0.00]
+=============== Oct 18, 2019 (KST) ===============
+11:43:42.485166 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:43:42.485340 version@stat F·[3 8] S·11KiB[2KiB 9KiB] Sc·[0.75 0.00]
+11:43:42.485370 db@open opening
+11:43:42.485463 journal@recovery F·1
+11:43:42.486357 journal@recovery recovering @43
+11:43:42.494648 memdb@flush created L0@45 N·6 S·1KiB "rou../sh,v84":"rou../vs,v86"
+11:43:42.496572 version@stat F·[4 8] S·12KiB[3KiB 9KiB] Sc·[1.00 0.00]
+11:43:42.568013 db@janitor F·14 G·0
+11:43:42.568048 db@open done T·82.661818ms
+11:43:42.568201 table@move L0@45 -> L1
+11:43:42.568277 version@stat F·[3 9] S·12KiB[2KiB 10KiB] Sc·[0.75 0.00]
+=============== Oct 18, 2019 (KST) ===============
+11:44:23.918270 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:44:23.918501 version@stat F·[3 9] S·12KiB[2KiB 10KiB] Sc·[0.75 0.00]
+11:44:23.918531 db@open opening
+11:44:23.918636 journal@recovery F·1
+11:44:23.920819 journal@recovery recovering @46
+11:44:23.927221 memdb@flush created L0@48 N·6 S·1KiB "rou../sh,v91":"rou../vs,v93"
+11:44:23.927904 version@stat F·[4 9] S·14KiB[3KiB 10KiB] Sc·[1.00 0.00]
+11:44:23.945753 db@janitor F·15 G·0
+11:44:23.945801 db@open done T·27.256625ms
+11:44:23.945856 table@compaction L0·1 -> L1·1 S·2KiB Q·95
+11:44:23.952122 table@build created L1@51 N·14 S·2KiB "rou../sh,v7":"rou../vs,v44"
+11:44:23.952218 version@stat F·[3 9] S·13KiB[2KiB 10KiB] Sc·[0.75 0.00]
+11:44:23.989282 table@compaction committed F-1 S-756B Ke·0 D·4 T·43.33914ms
+11:44:23.989615 table@remove removed @27
+=============== Oct 18, 2019 (KST) ===============
+11:46:43.051949 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:46:43.052160 version@stat F·[3 9] S·13KiB[2KiB 10KiB] Sc·[0.75 0.00]
+11:46:43.052186 db@open opening
+11:46:43.052279 journal@recovery F·1
+11:46:43.054363 journal@recovery recovering @49
+11:46:43.062941 memdb@flush created L0@52 N·6 S·1KiB "rou../sh,v98":"rou../vs,v100"
+11:46:43.063554 version@stat F·[4 9] S·14KiB[3KiB 10KiB] Sc·[1.00 0.00]
+11:46:43.117480 db@janitor F·16 G·1
+11:46:43.117508 db@janitor removing table-48
+11:46:43.117617 db@open done T·65.418467ms
+11:46:43.117713 table@compaction L0·2 -> L1·0 S·2KiB Q·102
+11:46:43.127577 table@build created L1@55 N·11 S·1KiB "rou../sh,v14":"rou../vs,v100"
+11:46:43.127678 version@stat F·[2 10] S·14KiB[1KiB 12KiB] Sc·[0.50 0.00]
+11:46:43.163581 table@compaction committed F-1 S-402B Ke·0 D·1 T·45.792394ms
+11:46:43.163736 table@remove removed @10
+=============== Oct 18, 2019 (KST) ===============
+11:47:28.385007 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:47:28.385330 version@stat F·[2 10] S·14KiB[1KiB 12KiB] Sc·[0.50 0.00]
+11:47:28.385389 db@open opening
+11:47:28.385533 journal@recovery F·1
+11:47:28.388988 journal@recovery recovering @53
+11:47:28.396373 memdb@flush created L0@56 N·6 S·1KiB "rou../sh,v105":"rou../vs,v107"
+11:47:28.397262 version@stat F·[3 10] S·15KiB[2KiB 12KiB] Sc·[0.75 0.00]
+11:47:28.423991 db@janitor F·16 G·1
+11:47:28.424012 db@janitor removing table-52
+11:47:28.424109 db@open done T·38.700981ms
+=============== Oct 18, 2019 (KST) ===============
+14:54:24.142107 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:54:24.142354 version@stat F·[3 10] S·15KiB[2KiB 12KiB] Sc·[0.75 0.00]
+14:54:24.142387 db@open opening
+14:54:24.142520 journal@recovery F·1
+14:54:24.146225 journal@recovery recovering @57
+14:54:24.161594 memdb@flush created L0@59 N·6 S·1KiB "rou../sh,v112":"rou../vs,v114"
+14:54:24.162634 version@stat F·[4 10] S·16KiB[3KiB 12KiB] Sc·[1.00 0.00]
+14:54:24.234481 db@janitor F·16 G·0
+14:54:24.234523 db@open done T·92.122349ms
+14:54:24.234568 table@compaction L0·1 -> L1·1 S·2KiB Q·116
+14:54:24.260632 table@build created L1@62 N·12 S·1KiB "rou../sh,v112":"rou../vs,v58"
+14:54:24.260753 version@stat F·[3 10] S·15KiB[2KiB 13KiB] Sc·[0.75 0.00]
+14:54:24.299059 table@compaction committed F-1 S-313B Ke·0 D·0 T·64.428668ms
+14:54:24.299435 table@remove removed @31
+=============== Oct 18, 2019 (KST) ===============
+14:55:12.678567 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:55:12.679595 version@stat F·[3 10] S·15KiB[2KiB 13KiB] Sc·[0.75 0.00]
+14:55:12.679663 db@open opening
+14:55:12.679884 journal@recovery F·1
+14:55:12.685082 journal@recovery recovering @60
+14:55:12.695133 memdb@flush created L0@63 N·6 S·1KiB "rou../sh,v119":"rou../vs,v121"
+14:55:12.695718 version@stat F·[4 10] S·16KiB[3KiB 13KiB] Sc·[1.00 0.00]
+14:55:12.712280 db@janitor F·17 G·1
+14:55:12.712303 db@janitor removing table-59
+14:55:12.712386 db@open done T·32.706167ms
+14:55:12.712580 table@compaction L0·1 -> L1·1 S·3KiB Q·123
+14:55:12.729727 table@build created L1@66 N·19 S·3KiB "rou../sh,v119":"rou../vs,v44"
+14:55:12.729881 version@stat F·[3 10] S·16KiB[2KiB 14KiB] Sc·[0.75 0.00]
+14:55:12.774259 table@compaction committed F-1 S-105B Ke·0 D·1 T·61.599838ms
+14:55:12.775172 table@remove removed @51
+=============== Oct 18, 2019 (KST) ===============
+15:32:36.311784 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:32:36.361372 version@stat F·[3 10] S·16KiB[2KiB 14KiB] Sc·[0.75 0.00]
+15:32:36.361439 db@open opening
+15:32:36.361598 journal@recovery F·1
+15:32:36.370832 journal@recovery recovering @64
+15:32:36.421350 memdb@flush created L0@67 N·6 S·1KiB "rou../sh,v126":"rou../vs,v128"
+15:32:36.423340 version@stat F·[4 10] S·17KiB[3KiB 14KiB] Sc·[1.00 0.00]
+15:32:36.453632 db@janitor F·17 G·1
+15:32:36.453660 db@janitor removing table-63
+15:32:36.453758 db@open done T·92.304525ms
+15:32:36.453850 table@compaction L0·3 -> L1·0 S·3KiB Q·130
+15:32:36.484799 table@build created L1@70 N·18 S·2KiB "rou../sh,v49":"rou../vs,v128"
+15:32:36.484900 version@stat F·[1 11] S·17KiB[534B 16KiB] Sc·[0.25 0.00]
+15:32:36.504044 table@compaction committed F-2 S-427B Ke·0 D·0 T·50.139081ms
+15:32:36.509338 table@remove removed @56
+15:32:36.509426 table@remove removed @28
+=============== Oct 18, 2019 (KST) ===============
+15:33:25.633834 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:33:25.634058 version@stat F·[1 11] S·17KiB[534B 16KiB] Sc·[0.25 0.00]
+15:33:25.634098 db@open opening
+15:33:25.634208 journal@recovery F·1
+15:33:25.634997 journal@recovery recovering @68
+15:33:25.668662 memdb@flush created L0@71 N·6 S·1KiB "rou../sh,v133":"rou../vs,v135"
+15:33:25.669882 version@stat F·[2 11] S·18KiB[1KiB 16KiB] Sc·[0.50 0.00]
+15:33:25.690048 db@janitor F·16 G·1
+15:33:25.690073 db@janitor removing table-67
+15:33:25.690162 db@open done T·56.051326ms
